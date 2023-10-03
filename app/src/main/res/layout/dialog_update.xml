@@ -34,7 +34,7 @@
         app:layout_constraintStart_toEndOf="@id/tvNameLabel"
         android:id="@+id/etUpdateName"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Enter Name" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:id="@+id/etUpdateEmailId"
         android:layout_width="0dp"
         android:layout_marginStart="8dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:inputType="textEmailAddress"
         android:hint="Enter Email ID" />
 
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/tvCancel"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="48dp"
         android:foreground="?attr/selectableItemBackground"
         android:gravity="center"
         android:inputType="textEmailAddress"

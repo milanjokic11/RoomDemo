@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.RoomExample" parent="Base.Theme.RoomExample" />
+    
+    <style name="Theme_Dialog" parent="ThemeOverlay.AppCompat.Dialog" >
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
 </resources>
